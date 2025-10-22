@@ -1,0 +1,15 @@
+[package]
+name = "cli"
+version = "0.4.2"
+edition = "2021"
+description = "Command-line tool for x402 wallet analysis"
+
+[[bin]]
+name = "luum-cli"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+luum-math = { path = "../libs/luum_math" }

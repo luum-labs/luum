@@ -1,0 +1,21 @@
+[package]
+name = "luum-core"
+version = "0.4.2"
+edition = "2021"
+description = "On-chain x402 micro-payment analysis program"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "luum_core"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { workspace = true, features = ["init-if-needed"] }
+solana-program = { workspace = true }
+borsh = { workspace = true }

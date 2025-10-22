@@ -1,0 +1,10 @@
+target/
+node_modules/
+.anchor/
+.DS_Store
+*.swp
+*.swo
+dist/
+coverage/
+main.py
+.env
