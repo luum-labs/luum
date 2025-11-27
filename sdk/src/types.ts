@@ -57,3 +57,4 @@ export const TIER_NAMES: Record<number, string> = {
   3: "Elite",
   4: "Whale",
 };
+// type update v21
