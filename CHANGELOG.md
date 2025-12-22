@@ -40,4 +40,4 @@ All notable changes to luum are documented here.
 - Project initialization
 - Cargo workspace configuration
 - README with architecture diagram
-<!-- log --> v23
+<!-- log --> v31
