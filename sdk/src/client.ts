@@ -122,4 +122,4 @@ export class LuumClient {
     return { nodes, links, totalFlow };
   }
 }
-// client refinement v28
+// client refinement v36
