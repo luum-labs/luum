@@ -97,4 +97,4 @@ impl ClusterEngine {
         ((freq_factor * 0.4 + amount_factor * 0.6) * 100.0).round()
     }
 }
-// threshold adjustment v40
+// threshold adjustment v48
