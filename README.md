@@ -109,4 +109,4 @@ luum/
 ## License
 
 MIT
-<!-- docs --> v46
+<!-- docs --> v54
